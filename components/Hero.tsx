@@ -9,7 +9,7 @@ const Hero = () => {
             The Best Place to Buy Games
             </div>
             <p className='text-white text-[18px]  w-[80%] lg:w-[55%] mt-[1rem] md:mt-[0.2rem] mb-[1rem] opacity-75'>
-            Step into Game Haven, where gaming dreams come to life! We're more than just a store; we're your gaming sanctuary. With an expansive collection, unbeatable prices, and a commitment to customer satisfaction, we redefine what it means to shop for games. Experience the joy of exploring our meticulously curated selection, where every title is a gem waiting to be discovered. At our store, it's not just about transactions; it's about creating a community of passionate gamers. Join the Bonanza and unlock a world where the best games meet the best deals. Elevate your gaming journey with us – because when it comes to buying games, we're the unrivaled champions. Welcome to the ultimate gaming destination!
+            Step into Game Haven, where gaming dreams come to life! We're more than just a store; we're your gaming sanctuary. With an expansive collection, unbeatable prices, and a commitment to customer satisfaction, we redefine what it means to shop for games. Experience the joy of exploring our meticulously curated selection, where every title is a gem waiting to be discovered. At our store, it's not just about transactions; it's about creating a community of passionate gamers. Elevate your gaming journey with us – because when it comes to buying games, we're the unrivaled champions. Welcome to the ultimate gaming destination!
             </p>
             <div>
                 <button className='before:ease bg-white text-[17px] relative h-12 w-40 overflow-hidden 
