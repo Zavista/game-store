@@ -1,9 +1,10 @@
 import React from 'react'
+import Nav from '../components/Nav'
 
 const HomePage = () => {
   return (
-    <div className='text-9xl text-red-700'>
-      HomePage
+    <div className='overflow-x-hidden'>
+      <Nav></Nav>
     </div>
   )
 }
