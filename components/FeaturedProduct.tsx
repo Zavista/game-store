@@ -1,4 +1,5 @@
 import React from 'react'
+import FeaturedProductSlider from './FeaturedProductSlider'
 
 const FeaturedProduct = () => {
   return (
@@ -10,6 +11,9 @@ const FeaturedProduct = () => {
             <button className='uppercase text-[13px] md:text-[15px] text-indigo-300'>
                 View all products
             </button> 
+        </div>
+        <div className='w-[80%] mt-[2rem] mx-auto'>
+            <FeaturedProductSlider></FeaturedProductSlider>
         </div>
     </div>
   )
