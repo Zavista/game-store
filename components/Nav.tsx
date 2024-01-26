@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import {  MagnifyingGlassIcon, ShoppingBagIcon } from '@heroicons/react/16/solid'
+import {  HeartIcon, MagnifyingGlassIcon, ShoppingBagIcon, UserIcon } from '@heroicons/react/16/solid'
 
 const Nav = () => {
   return (
@@ -25,6 +25,8 @@ const Nav = () => {
                         7
                     </div>
                 </div>
+                <HeartIcon className='w-[2rem] h-[2rem] text-white cursor-pointer'></HeartIcon>
+                <UserIcon className='w-[2rem] h-[2rem] text-white cursor-pointer'></UserIcon>
             </div>
         </div>
     </div>
