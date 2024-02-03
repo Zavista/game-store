@@ -5,8 +5,8 @@ const Hero = () => {
   return (
     <div className='relative w-[100vw] h-[60vh] md:h-[87vh] bg'>
         <div className='w-[80%] mx-auto h-[100%] flex flex-col items-start justify-center'>
-            <div className='text-white font-bold text-[30px] md:text-[30px] lg:text-[40px] uppercase'>
-            Welcome Gamers! 
+            <div className='text-white text-[30px] md:text-[30px] lg:text-[40px]'>
+            Welcome to <span className='text-rose-500 font-bold'>Game Haven</span>
             </div>
             <p className='text-white text-[14px] md:text-[18px]  w-[80%] lg:w-[55%] mt-[0.2rem] md:mt-[0.2rem] mb-[1.5rem] opacity-75'>
             Step into Game Haven, where gaming dreams come to life! We're more than just a store; 
