@@ -21,7 +21,7 @@ const Nav = () => {
                 <div className='relative'>
                     <ShoppingBagIcon className='w-[2rem] h-[2rem] text-white cursor-pointer'></ShoppingBagIcon>
                     <div className='w-[20px] text-[12px] absolute top-[-6px] right-[-6px] h-[20px] flex items-center
-                    text-white justify-center font-semibold rounded-full bg-blue-400'>
+                    text-white justify-center font-semibold rounded-full bg-rose-500'>
                         7
                     </div>
                 </div>
