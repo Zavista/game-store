@@ -6,8 +6,8 @@ const Nav = () => {
   return (
     <div className='h-[13vh] bg-gray-800'>
         <div className='w-[95%] mx-auto h-[100%] flex items-center justify-between'>
-            <div>
-                <Image src='/images/logo.png' alt='logo' width={140} height={140}></Image>
+            <div className='flex items-center justify-center'>
+                <Image src='/images/logo.png' alt='logo' width={120} height={120}></Image>
             </div>
             <div className='h-[50%] hidden flex-[0.7] overflow-hidden bg-gray-200 rounded-md md:flex items-center'>
                 <input 
