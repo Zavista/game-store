@@ -5,7 +5,7 @@ const FeaturedProduct = () => {
   return (
     <div className='pt-[6rem] pb-[3rem] bg-gray-900'>
         <div className="w-[80%] mx-auto flex items-center justify-between">
-            <h1 className='md:text-[20px] test-[22px] lg:text-[34px] text-white'>
+            <h1 className='md:text-[20px] text-[22px] lg:text-[34px] text-white'>
                 Featured Products
             </h1>
             <button className='uppercase text-[13px] md:text-[15px] text-stone-500'>
