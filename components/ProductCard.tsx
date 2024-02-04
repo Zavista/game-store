@@ -13,11 +13,11 @@ interface Props {
 
 const ProductCard = ({image, category, title, discountPrice, actualPrice}:Props) => {
   return (
-    <div>
-       <div className='w-[100%] h-[200px]'>
+    <div className='flex flex-col items-center'>
+       <div className='w-[100%] h-[200px] flex justify-center'>
             <Image src={image} alt={title} width={350} height={200} className='w-[100%] h-[90%] object-cover md:w-[90%] md:h-[90%]'></Image>
         </div>
-        <div className='mt-[1rem] w-[100%]  md:w-[90%]'>
+        <div className='w-[100%]  md:w-[90%]'>
             <div className='flex items-center justify-between'>
                 <p className='text-[14px] text-white opacity-70'>{category}</p>
                 <HeartIcon className='w-[1rem] h-[1rem] text-gray-500'></HeartIcon>
