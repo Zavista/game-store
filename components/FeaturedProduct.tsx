@@ -8,7 +8,7 @@ const FeaturedProduct = () => {
             <h1 className='md:text-[20px] test-[22px] lg:text-[34px] text-white'>
                 Featured Products
             </h1>
-            <button className='uppercase text-[13px] md:text-[15px] text-rose-600'>
+            <button className='uppercase text-[13px] md:text-[15px] text-stone-500'>
                 View all products
             </button> 
         </div>
