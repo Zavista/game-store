@@ -2,6 +2,7 @@ import React from 'react'
 import Nav from '../components/Nav'
 import Hero from '../components/Hero'
 import FeaturedProduct from '../components/FeaturedProduct'
+import TopProduct from '@/components/TopProduct'
 
 const HomePage = () => {
   return (
@@ -9,6 +10,7 @@ const HomePage = () => {
       <Nav></Nav>
       <Hero></Hero>
       <FeaturedProduct></FeaturedProduct>
+      <TopProduct></TopProduct>
     </div>
   )
 }
