@@ -7,12 +7,12 @@ const responsive = {
   big_desktop: {
     breakpoint: { max: 3000, min: 1500 },
     items: 5,
-    slidesToSlide: 2 // optional, default to 1.
+    slidesToSlide: 1 // optional, default to 1.
   },
   small_desktop: {
     breakpoint: { max: 1500, min: 1300 },
     items: 4,
-    slidesToSlide: 2 // optional, default to 1.
+    slidesToSlide: 1 // optional, default to 1.
   },
   tablet: {
     breakpoint: { max: 1300, min: 764 },
@@ -40,10 +40,10 @@ const FeaturedProductSlider = () => {
     itemClass='item'
     >
       <ProductCard 
-        title='Call of Duty' 
-        actualPrice='$59.99' 
-        discountPrice='$49.99' 
-        category='Shooting' 
+        title='Gravity Guy' 
+        actualPrice='$19.99' 
+        discountPrice='$9.99' 
+        category='Racing' 
         image='/images/g1.jpg'>
       </ProductCard>
       <ProductCard 
@@ -73,6 +73,27 @@ const FeaturedProductSlider = () => {
         discountPrice='$59.99' 
         category='Action' 
         image='/images/g5.jpg'>
+      </ProductCard>
+      <ProductCard 
+        title="Space Fight" 
+        actualPrice='$44.99' 
+        discountPrice='$39.99' 
+        category='Action' 
+        image='/images/g6.jpg'>
+      </ProductCard>
+      <ProductCard 
+        title="Super Cars" 
+        actualPrice='$19.99' 
+        discountPrice='$15.99' 
+        category='Racing' 
+        image='/images/g7.jpg'>
+      </ProductCard>
+      <ProductCard 
+        title="Wild Wolf" 
+        actualPrice='$39.99' 
+        discountPrice='$19.99' 
+        category='Adventure' 
+        image='/images/g8.jpg'>
       </ProductCard>
 
 
