@@ -22,8 +22,18 @@ const responsive = {
 
 const FeaturedProductSlider = () => {
   return (
-    <Carousel>
-      
+    <Carousel 
+    additionalTransfrom={0} 
+    arrows={true} 
+    autoPlay={true} 
+    autoPlaySpeed={5000} 
+    centerMode={false} 
+    responsive={responsive} 
+    itemClass='item'
+    >
+      <div>
+        
+      </div>
     </Carousel>
   )
 }
