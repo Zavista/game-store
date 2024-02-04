@@ -32,9 +32,9 @@ const FeaturedProductSlider = () => {
     responsive={responsive} 
     itemClass='item'
     >
-      <div>
-        <ProductCard></ProductCard>
-      </div>
+    
+      <ProductCard title='Call of Duty' actualPrice='$59.99' discountPrice='$49.99' category='FPS' image='/images/g1.jpg'></ProductCard>
+      
     </Carousel>
   )
 }
