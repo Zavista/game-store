@@ -1,5 +1,6 @@
 import React from 'react'
 import Carousel from "react-multi-carousel";
+import ProductCard from './ProductCard';
 
 const responsive = {
   desktop: {
@@ -32,7 +33,7 @@ const FeaturedProductSlider = () => {
     itemClass='item'
     >
       <div>
-        
+        <ProductCard></ProductCard>
       </div>
     </Carousel>
   )
