@@ -8,8 +8,8 @@ const FeaturedProduct = () => {
             <h1 className='md:text-[20px] text-[22px] lg:text-[34px] text-white'>
                 Featured Products
             </h1>
-            <button className='uppercase text-[13px] md:text-[15px] text-stone-500'>
-                View all products
+            <button className='text-[13px] md:text-[15px] text-stone-400' style={{ letterSpacing: '0.05em' }}>
+                View All Products
             </button> 
         </div>
         <div className='w-[80%] mt-[2rem] mx-auto'>
